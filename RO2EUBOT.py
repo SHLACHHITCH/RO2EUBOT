@@ -1,3 +1,4 @@
+import os
 import discord
 from discord.ext import commands, tasks
 import subprocess
@@ -10,7 +11,6 @@ intents = discord.Intents.default()
 intents = discord.Intents.all()
 
 # Токен вашего бота
-TOKEN = ''
 
 # Префикс для команд бота
 PREFIX = '!'
@@ -75,4 +75,4 @@ async def server_info(ctx):
         await ctx.send('Не удалось получить информацию о сервере игры.')
 
 # Запускаем бота
-bot.run(TOKEN)
+bot.run(os.environ.get("BOT_TOKEN"))
