@@ -10,7 +10,7 @@ intents = discord.Intents.default()
 intents = discord.Intents.all()
 
 # Токен вашего бота
-TOKEN = 'MTIyNzcyOTcxMTYyNzc2MzcyMw.GM1Lvi.txm67DQ-nhLAewKPEDzzxolX6MJXdq0UoTjuLI'
+TOKEN = ''
 
 # Префикс для команд бота
 PREFIX = '!'
