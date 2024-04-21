@@ -1,0 +1,9 @@
+{
+  "name": "ro2eubot",
+  "version": "1.0.0",
+  "description": "Query game server info",
+  "main": "query_server.js",
+  "dependencies": {
+    "gamedig": "^3.5.0"
+  }
+}
